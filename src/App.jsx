@@ -33,6 +33,7 @@ function App() {
           <label for="name">Name:</label>
           <input
             type="text"
+            id="name"
             onChange={handleName}
             placeholder="Type your name"
           />
@@ -42,6 +43,7 @@ function App() {
           <label for="color">Favorite color:</label>
           <input
             type="text"
+            id="color"
             onChange={handleColor}
             placeholder="Type your favorite color (HEX Format)"
           />
