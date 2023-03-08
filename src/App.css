@@ -11,9 +11,11 @@ h1 {
   line-height: 1rem;
 }
 
-h2{
-  margin-top: 1em;
+h2, p{
+  margin: 10px;
 }
+
+
 
 button {
   border-radius: 4px;
@@ -43,17 +45,20 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 40px;
   width: 218px;
   border: 1px solid transparent;
   border-radius: 4px;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .colorForm {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 300px;
 }
 
 .colorForm label {

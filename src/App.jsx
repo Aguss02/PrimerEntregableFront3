@@ -27,9 +27,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Color Form!</h1>
       <form className="colorForm" onSubmit={handleSubmit}>
-        
+        <h1>Color Form ❤️</h1>
         <div>
           <label for="name">Name:</label>
           <input
@@ -58,7 +57,6 @@ function App() {
       )}
 
       {cardVisible && <Card name={name} color={color} />}
-
     </div>
   );
 }
